@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+ * Brand CSS variables (mirror of src/brand/tokens.ts). Dark is the default,
+ * on-brand surface; a light theme is provided for dashboards / accessibility.
+ */
+@layer base {
+  :root {
+    --background: 240 24% 6%;
+    --foreground: 240 20% 96%;
+    --muted: 240 12% 14%;
+    --muted-foreground: 240 8% 66%;
+    --card: 240 18% 10%;
+    --card-foreground: 240 20% 96%;
+    --border: 240 12% 18%;
+    --input: 240 12% 18%;
+    --ring: 252 83% 60%;
+    --primary: 252 83% 60%;
+    --primary-foreground: 0 0% 100%;
+    --accent: 38 78% 60%;
+    --accent-foreground: 240 24% 8%;
+    --radius: 0.9rem;
+  }
+
+  .light {
+    --background: 240 33% 99%;
+    --foreground: 240 24% 10%;
+    --muted: 240 16% 94%;
+    --muted-foreground: 240 8% 40%;
+    --card: 0 0% 100%;
+    --card-foreground: 240 24% 10%;
+    --border: 240 12% 88%;
+    --input: 240 12% 88%;
+    --ring: 252 83% 60%;
+    --primary: 252 83% 58%;
+    --primary-foreground: 0 0% 100%;
+    --accent: 38 74% 48%;
+    --accent-foreground: 0 0% 100%;
+  }
+
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-feature-settings: 'rlig' 1, 'calt' 1;
+  }
+
+  /* Arabic typography: first-class, never a fallback. */
+  [dir='rtl'] body,
+  [lang='ar'] {
+    font-family: var(--font-arabic), var(--font-sans), system-ui, sans-serif;
+    letter-spacing: 0;
+    line-height: 1.85;
+  }
+  [dir='rtl'] .font-display {
+    font-family: var(--font-arabic), var(--font-display), sans-serif;
+    font-weight: 700;
+  }
+}
+
+@layer utilities {
+  /* Logical margin helpers so spacing mirrors automatically under RTL. */
+  .ms-auto {
+    margin-inline-start: auto;
+  }
+  .me-auto {
+    margin-inline-end: auto;
+  }
+  .grid-fade {
+    -webkit-mask-image: linear-gradient(180deg, transparent, #000 12%, #000 78%, transparent);
+    mask-image: linear-gradient(180deg, transparent, #000 12%, #000 78%, transparent);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}

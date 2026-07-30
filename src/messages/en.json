@@ -1,0 +1,179 @@
+{
+  "meta": {
+    "title": "Sana Studio — AI content that performs",
+    "description": "AI-generated marketing content for Middle East brands: recurring AI characters, product imagery, dedicated AI influencers, and brand ambassadors. Static-first, video next."
+  },
+  "nav": {
+    "services": "Services",
+    "work": "Work",
+    "influencers": "AI Influencers",
+    "pricing": "Pricing",
+    "about": "About",
+    "contact": "Contact",
+    "bookCall": "Book a Call",
+    "signIn": "Sign in",
+    "dashboard": "Dashboard"
+  },
+  "hero": {
+    "eyebrow": "AI content studio · MENA",
+    "title": "AI content that performs — in Arabic and English",
+    "subline": "Recurring AI characters, product imagery, and dedicated AI influencers built for a single product. Delivered in days, at a fraction of studio cost.",
+    "primaryCta": "Book a Call",
+    "secondaryCta": "See Our Work"
+  },
+  "trust": {
+    "label": "Trusted output, measurable results",
+    "stats": {
+      "pieces": { "value": "12,000+", "label": "Content pieces delivered" },
+      "turnaround": { "value": "3–5 days", "label": "Average turnaround" },
+      "languages": { "value": "AR · EN", "label": "Native bilingual" }
+    }
+  },
+  "problem": {
+    "title": "Traditional production is slow and expensive. AI isn't.",
+    "subtitle": "The same campaign, three ways.",
+    "cards": {
+      "cost": {
+        "title": "Cost",
+        "traditional": "$1,200–4,000 per shoot day",
+        "ours": "From $40 per finished asset",
+        "note": "No studio, crew, talent, or location fees."
+      },
+      "speed": {
+        "title": "Timeline",
+        "traditional": "2–6 weeks per campaign",
+        "ours": "3–5 days, revisions same-week",
+        "note": "Concepts approved before a single asset is rendered."
+      },
+      "scale": {
+        "title": "Scale",
+        "traditional": "One look, one shoot",
+        "ours": "Infinite variations, one character",
+        "note": "A consistent AI persona across every post and format."
+      }
+    }
+  },
+  "services": {
+    "title": "What we make",
+    "subtitle": "Static imagery and carousels today. Video is on the roadmap — the catalog is built to extend.",
+    "hoverHint": "Hover to preview",
+    "items": {
+      "characters": {
+        "name": "Recurring AI Characters",
+        "summary": "A consistent persona for carousels and faceless content, on-brand every time."
+      },
+      "product": {
+        "name": "Product Marketing Imagery",
+        "summary": "Studio-grade product shots and lifestyle scenes without a studio."
+      },
+      "influencers": {
+        "name": "Dedicated AI Influencers",
+        "summary": "A bespoke AI influencer built for one product, with its own social page."
+      },
+      "ambassadors": {
+        "name": "AI Brand Ambassadors",
+        "summary": "A recognizable face for your brand across campaigns and channels."
+      },
+      "carousels": {
+        "name": "Carousel Content Packs",
+        "summary": "Scroll-stopping multi-slide stories, scripted and designed to convert."
+      }
+    },
+    "learnMore": "View service"
+  },
+  "how": {
+    "title": "How it works",
+    "subtitle": "Four steps. You approve the concept before we produce anything.",
+    "steps": {
+      "brief": { "title": "Brief", "body": "Tell us the product, audience, and platform. 15-minute call or a form." },
+      "concept": { "title": "Concept approval", "body": "We send concepts and character direction. Nothing renders until you sign off." },
+      "production": { "title": "Production", "body": "We generate, curate, and finish the assets to your output specs." },
+      "delivery": { "title": "Delivery", "body": "Final files delivered via secure links, ready to post." }
+    }
+  },
+  "results": {
+    "title": "The numbers",
+    "subtitle": "Illustrative benchmarks. Edit them in one data file; every chart carries its source.",
+    "cost": { "title": "Cost per finished asset", "caption": "Source: illustrative benchmark — replace with your engagement data. USD per delivered asset." },
+    "turnaround": { "title": "Turnaround time", "caption": "Source: illustrative benchmark — replace with your delivery logs. Business days, brief to delivery." },
+    "engagement": { "title": "Engagement lift", "caption": "Methodology: illustrative before/after per client cohort. Replace with measured campaign data." },
+    "legend": { "traditional": "Traditional", "sana": "Sana Studio" }
+  },
+  "influencers": {
+    "title": "Meet the AI influencers",
+    "subtitle": "Personas built for a single product, each with its own page.",
+    "followers": "followers",
+    "viewProfile": "View profile"
+  },
+  "testimonials": {
+    "title": "What clients say"
+  },
+  "pricing": {
+    "title": "Simple pricing",
+    "subtitle": "Start with a pack, scale to a retainer. Custom for white-label and volume.",
+    "monthly": "Monthly retainer",
+    "perPack": "Per pack",
+    "perMonth": "/mo",
+    "perPackUnit": "/pack",
+    "popular": "Most popular",
+    "cta": "Get started",
+    "customCta": "Talk to sales",
+    "tiers": {
+      "starter": {
+        "name": "Starter",
+        "tagline": "Test the waters",
+        "features": ["8 finished assets", "1 AI character", "2 revision rounds", "AR or EN", "5-day delivery"]
+      },
+      "growth": {
+        "name": "Growth",
+        "tagline": "Always-on content",
+        "features": ["30 assets / month", "Up to 3 characters", "Unlimited concepts", "AR + EN", "Priority 3-day delivery", "Dedicated account manager"]
+      },
+      "scale": {
+        "name": "Scale",
+        "tagline": "Dedicated influencer",
+        "features": ["1 dedicated AI influencer + page", "60 assets / month", "White-label option", "Unlimited revisions", "Same-week turnaround"]
+      },
+      "custom": {
+        "name": "Custom",
+        "tagline": "Agencies & volume",
+        "features": ["White-label reseller terms", "Multi-brand pipeline", "Custom SLAs", "API / bulk delivery"]
+      }
+    }
+  },
+  "faq": {
+    "title": "Frequently asked",
+    "items": [
+      { "q": "Do you disclose that content is AI-generated?", "a": "Yes. We label synthetic content per platform policy and applicable regulation. Every dedicated AI influencer profile carries a clear 'AI' disclosure, and we advise clients on captions and platform-specific tags. See our AI Content & Disclosure page." },
+      { "q": "How do you keep a character consistent across posts?", "a": "Each recurring character is defined by a locked reference set and prompt system, so the same face, styling, and vibe carry across every asset and format." },
+      { "q": "What about likeness rights for AI influencers?", "a": "AI personas are original and do not depict real people without a signed likeness license. Our internal influencer library blocks any persona with a missing or expired license from being assigned." },
+      { "q": "Which languages and dialects do you cover?", "a": "Native Arabic (MSA and major dialects) and English, produced together — not translated as an afterthought." },
+      { "q": "Can I white-label this for my agency?", "a": "Yes. The Custom tier includes reseller terms, multi-brand pipelines, and delivery under your brand." },
+      { "q": "When is video available?", "a": "Phase 1 is static imagery and carousels. Video is on the roadmap; the catalog and pricing are built to add it without a rebuild." }
+    ]
+  },
+  "cta": {
+    "title": "Book a call",
+    "subtitle": "Pick a time. We'll review your product and send a concept within 48 hours.",
+    "bookingUnavailable": "Booking widget loads here. Set NEXT_PUBLIC_BOOKING_URL to your Cal.com or Calendly link."
+  },
+  "footer": {
+    "tagline": "AI content that performs, in Arabic and English.",
+    "services": "Services",
+    "company": "Company",
+    "legal": "Legal",
+    "social": "Social",
+    "privacy": "Privacy Policy",
+    "terms": "Terms",
+    "disclosure": "AI Content & Disclosure",
+    "about": "About",
+    "work": "Work",
+    "contact": "Contact",
+    "rights": "All rights reserved.",
+    "language": "Language"
+  },
+  "common": {
+    "placeholderBadge": "PLACEHOLDER — REPLACE",
+    "skipToContent": "Skip to content"
+  }
+}
