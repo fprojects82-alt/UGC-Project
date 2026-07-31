@@ -91,14 +91,30 @@ supabase/migrations/              # 0001 schema · 0002 RLS · 0003 seed
 
 ## Build order
 
-- [x] **Phase 1** — Home page, responsive, bilingual, placeholder content marked. **← current**
-- [ ] Phase 2 — Remaining public pages + intake form → Supabase + notification
-- [ ] Phase 3 — Auth, roles, client dashboard
-- [ ] Phase 4 — Creator dashboard + job pipeline
-- [ ] Phase 5 — Admin dashboard + influencer library
+- [x] **Phase 1** — Home page, responsive, bilingual, placeholder content marked
+- [x] **Phase 2** — Remaining public pages + intake form → Supabase + notification
+- [x] **Phase 3** — Auth (Supabase), roles, client dashboard
+- [x] **Phase 4** — Creator dashboard + job pipeline (status control, uploads, revisions)
+- [x] **Phase 5** — Admin dashboard + influencer library (license-gated selection)
 
-The **full data model + RLS (0001–0003)** is shipped now so Phases 2–5 build on
-a stable schema.
+All five phases are scaffolded and type-check/build clean. The internal platform
+runs against live data as soon as Supabase env vars are set; until then every
+dashboard renders a "connect Supabase" notice and safe empty states.
+
+### Internal platform routes
+
+| Route                            | Role            | Purpose                                             |
+| -------------------------------- | --------------- | --------------------------------------------------- |
+| `/login`, `/signup`              | any             | Supabase email/password auth                        |
+| `/dashboard`                     | client          | Orders, status, deliverable review, invoices        |
+| `/dashboard/orders/[id]`         | client          | Brief, deliverables (approve / revise), msg thread  |
+| `/dashboard/creator`             | creator         | Job queue by deadline, overdue flagged              |
+| `/dashboard/creator/[jobId]`     | creator         | Brief, specs, upload, status control, notes, revisions |
+| `/dashboard/admin`               | admin / AM      | KPIs, unassigned pool + assign, capacity, pipeline board, influencer library |
+
+Access is enforced by the dashboard layout (server-side) **and** Postgres RLS —
+never by client route guards alone. Uploaded assets are served only via signed,
+expiring URLs (`signedAssetUrl`).
 
 ## Non-functional coverage (Phase 1)
 

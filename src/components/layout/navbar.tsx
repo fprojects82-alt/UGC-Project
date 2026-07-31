@@ -42,6 +42,9 @@ export function Navbar() {
 
         <div className="hidden items-center gap-3 md:flex">
           <LanguageSwitcher />
+          <Link href="/login" className="text-sm text-muted-foreground transition-colors hover:text-foreground">
+            {t('signIn')}
+          </Link>
           <Link href="/contact">
             <Button size="sm">{t('bookCall')}</Button>
           </Link>
