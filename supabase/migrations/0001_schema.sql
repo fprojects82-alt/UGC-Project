@@ -1,5 +1,5 @@
 -- =====================================================================
--- Sana Studio — core schema
+-- APEXSCALE — core schema
 -- Roles: admin, account_manager, creator, client
 -- Pipeline: New → Brief Confirmed → In Production → Internal QA →
 --           Client Review → Revision → Delivered → Closed

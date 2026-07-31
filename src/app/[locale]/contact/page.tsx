@@ -16,7 +16,7 @@ export default async function ContactPage({ params: { locale } }: { params: { lo
 
   return (
     <>
-      <PageHeader eyebrow="Sana Studio" title={t('title')} subtitle={t('subtitle')} />
+      <PageHeader eyebrow="APEXSCALE" title={t('title')} subtitle={t('subtitle')} />
       <div className="container grid gap-8 py-16 lg:grid-cols-[1.3fr_1fr]">
         <IntakeForm />
         <div>

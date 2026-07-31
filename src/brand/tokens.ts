@@ -3,9 +3,9 @@
  * Swap these when the real brand kit from "Prompt 1" is supplied.
  */
 export const brand = {
-  name: 'Sana Studio',
-  nameAr: 'سنا',
-  domain: 'sanastudio.ai',
+  name: 'APEXSCALE',
+  nameAr: 'APEXSCALE',
+  domain: 'apexscale.ai',
   social: {
     instagram: 'https://instagram.com/',
     tiktok: 'https://tiktok.com/',

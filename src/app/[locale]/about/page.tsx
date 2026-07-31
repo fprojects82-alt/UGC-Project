@@ -15,7 +15,7 @@ export default async function AboutPage({ params: { locale } }: { params: { loca
 
   return (
     <>
-      <PageHeader eyebrow="Sana Studio" title={t('title')} subtitle={t('subtitle')} />
+      <PageHeader eyebrow="APEXSCALE" title={t('title')} subtitle={t('subtitle')} />
       <div className="container max-w-3xl py-16">
         <h2 className="font-display text-2xl font-bold">{t('missionTitle')}</h2>
         <p className="mt-4 text-lg leading-relaxed text-muted-foreground">{t('mission')}</p>

@@ -18,7 +18,7 @@ export default async function InfluencersPage({ params: { locale } }: { params: 
 
   return (
     <>
-      <PageHeader eyebrow="Sana Studio" title={t('title')} subtitle={t('subtitle')} />
+      <PageHeader eyebrow="APEXSCALE" title={t('title')} subtitle={t('subtitle')} />
       <div className="container grid gap-5 py-16 sm:grid-cols-2 lg:grid-cols-4">
         {influencerShowcase.map((p) => (
           <Link key={p.slug} href={`/influencers/${p.slug}`} className="group overflow-hidden rounded-lg border border-border bg-card">

@@ -32,8 +32,8 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const t = await getTranslations({ locale: params.locale, namespace: 'meta' });
   return {
-    metadataBase: new URL('https://sanastudio.ai'),
-    title: { default: t('title'), template: `%s · Sana Studio` },
+    metadataBase: new URL('https://apexscale.ai'),
+    title: { default: t('title'), template: `%s · APEXSCALE` },
     description: t('description'),
     alternates: {
       languages: { en: '/en', ar: '/ar' }

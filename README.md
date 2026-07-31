@@ -1,4 +1,4 @@
-# Sana Studio — AI Content Marketing Agency
+# APEXSCALE — AI Content Marketing Agency
 
 Public website **+** internal operations platform for an AI-content marketing
 agency serving the Middle East. Bilingual (Arabic / English) with full RTL
@@ -6,7 +6,7 @@ mirroring, mobile-first, built to extend from static imagery today to video
 later without a rebuild.
 
 > **Branding note:** the "Prompt 1" brand kit was not supplied to this build, so
-> a coherent placeholder brand ("Sana Studio") was invented per the instruction
+> a coherent placeholder brand ("APEXSCALE") was invented per the instruction
 > to pick one. Everything brand-related is centralized in `src/brand/` +
 > `src/app/globals.css` for a one-file swap. See `src/brand/brand.md`.
 

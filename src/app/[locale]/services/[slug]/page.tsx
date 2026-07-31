@@ -44,7 +44,7 @@ export default async function ServiceDetailPage({
     '@type': 'Service',
     name: s(`items.${svc.key}.name`),
     description: s(`items.${svc.key}.summary`),
-    provider: { '@type': 'Organization', name: 'Sana Studio' },
+    provider: { '@type': 'Organization', name: 'APEXSCALE' },
     areaServed: 'MENA'
   };
 

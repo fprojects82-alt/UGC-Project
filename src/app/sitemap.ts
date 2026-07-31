@@ -1,7 +1,7 @@
 import type { MetadataRoute } from 'next';
 import { routing } from '@/i18n/routing';
 
-const base = 'https://sanastudio.ai';
+const base = 'https://apexscale.ai';
 const paths = ['', '/services', '/work', '/influencers', '/pricing', '/about', '/contact', '/legal/privacy', '/legal/terms', '/legal/ai-disclosure'];
 
 export default function sitemap(): MetadataRoute.Sitemap {

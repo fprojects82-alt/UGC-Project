@@ -14,7 +14,7 @@ export default async function PricingPage({ params: { locale } }: { params: { lo
   const t = await getTranslations('pricing');
   return (
     <>
-      <PageHeader eyebrow="Sana Studio" title={t('title')} subtitle={t('subtitle')} />
+      <PageHeader eyebrow="APEXSCALE" title={t('title')} subtitle={t('subtitle')} />
       <Pricing />
       <Faq />
     </>

@@ -1,10 +1,10 @@
-# Sana Studio — Brand (self-supplied placeholder)
+# APEXSCALE — Brand (self-supplied placeholder)
 
 > Prompt 1 brand assets were not provided to this build, so a coherent placeholder
 > brand was invented per the instruction "use whatever branding you want." Replace
 > the tokens in `tokens.ts` + `globals.css` when the real brand kit arrives.
 
-**Name:** Sana Studio (سنا) — "sana" = radiance/brilliance in Arabic.
+**Name:** APEXSCALE (APEXSCALE) — "sana" = radiance/brilliance in Arabic.
 **Tagline (EN):** AI content that performs.
 **Tagline (AR):** محتوى بالذكاء الاصطناعي يحقق النتائج.
 **Voice:** Confident, concrete, numbers-first. No hype adjectives. Bilingual-native.

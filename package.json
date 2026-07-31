@@ -2,7 +2,7 @@
   "name": "sana-studio",
   "version": "0.1.0",
   "private": true,
-  "description": "Sana Studio — AI content marketing agency (Middle East). Public site + internal ops platform.",
+  "description": "APEXSCALE — AI content marketing agency (Middle East). Public site + internal ops platform.",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

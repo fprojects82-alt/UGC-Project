@@ -19,7 +19,7 @@ export default async function WorkPage({ params: { locale } }: { params: { local
 
   return (
     <>
-      <PageHeader eyebrow="Sana Studio" title={t('title')} subtitle={t('subtitle')} />
+      <PageHeader eyebrow="APEXSCALE" title={t('title')} subtitle={t('subtitle')} />
       <div className="container py-16">
         {caseStudies.length === 0 ? (
           // Empty-state: no fabricated case studies.
