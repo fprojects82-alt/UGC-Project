@@ -174,6 +174,126 @@
   },
   "common": {
     "placeholderBadge": "PLACEHOLDER — REPLACE",
-    "skipToContent": "Skip to content"
+    "skipToContent": "Skip to content",
+    "getStarted": "Get started",
+    "bookCall": "Book a Call",
+    "viewAll": "View all",
+    "back": "Back"
+  },
+  "servicesPage": {
+    "title": "Services",
+    "subtitle": "AI-generated marketing content, built to extend from static to video.",
+    "problem": "The problem",
+    "whatYouGet": "What you get",
+    "process": "Process",
+    "specs": "Deliverable specs",
+    "samples": "Sample gallery",
+    "pricingCta": "Pricing",
+    "cta": "Start a project"
+  },
+  "work": {
+    "title": "Work",
+    "subtitle": "Selected case studies. Numbers are illustrative until we publish measured results.",
+    "readCase": "Read case study",
+    "challenge": "Challenge",
+    "approach": "Approach",
+    "result": "Result",
+    "emptyState": "Case studies are being prepared. Book a call to see the full portfolio."
+  },
+  "influencerProfile": {
+    "niche": "Niche",
+    "platform": "Platform",
+    "followers": "Followers",
+    "content": "Content",
+    "partnership": "Partner with this persona",
+    "partnershipBody": "Every dedicated AI influencer is disclosed as AI-generated and governed by our internal likeness-license policy.",
+    "aiDisclosure": "AI-generated persona"
+  },
+  "about": {
+    "title": "About Sana Studio",
+    "subtitle": "We build AI content that performs for Middle East brands.",
+    "missionTitle": "Why we exist",
+    "mission": "Traditional content production is too slow and too expensive for the pace modern brands post at. We use AI to deliver studio-grade imagery and recurring characters in days, in Arabic and English, at a fraction of the cost — responsibly, with clear disclosure of synthetic content.",
+    "valuesTitle": "How we work",
+    "values": [
+      { "t": "Numbers first", "d": "We lead with cost, turnaround, and engagement — not adjectives." },
+      { "t": "Bilingual by default", "d": "Arabic and English produced together, never translated as an afterthought." },
+      { "t": "Disclosed by design", "d": "Synthetic content is labeled; every AI persona is governed by a likeness-license policy." },
+      { "t": "Built to extend", "d": "Static and carousels today; the catalog adds video without a rebuild." }
+    ]
+  },
+  "contact": {
+    "title": "Start a project",
+    "subtitle": "Tell us about your product. We'll review it and send a concept within 48 hours.",
+    "formTitle": "Project intake",
+    "bookTitle": "Or book a call directly",
+    "fields": {
+      "name": "Full name",
+      "company": "Company",
+      "email": "Email",
+      "whatsapp": "WhatsApp",
+      "serviceType": "Service type",
+      "targetPlatform": "Target platform",
+      "budget": "Budget band",
+      "timeline": "Timeline",
+      "language": "Content language",
+      "assets": "Brand assets (optional)",
+      "message": "Anything else"
+    },
+    "placeholders": {
+      "name": "Your name",
+      "company": "Your company",
+      "email": "you@company.com",
+      "whatsapp": "+971 …",
+      "message": "Product, goals, references…"
+    },
+    "options": {
+      "selectService": "Select a service",
+      "platforms": ["Instagram", "TikTok", "X", "Snapchat", "Website", "Other"],
+      "budgets": ["< $500", "$500–2,000", "$2,000–5,000", "$5,000+"],
+      "timelines": ["ASAP", "2–4 weeks", "1–3 months", "Flexible"],
+      "languages": ["Arabic", "English", "Both"]
+    },
+    "submit": "Send request",
+    "submitting": "Sending…",
+    "success": "Thanks — we received your request and will reply within 48 hours.",
+    "error": "Something went wrong. Please try again or email us directly.",
+    "required": "Please fill in the required fields.",
+    "consent": "By submitting you agree to our Privacy Policy."
+  },
+  "legal": {
+    "updated": "Last updated",
+    "privacy": {
+      "title": "Privacy Policy",
+      "body": [
+        ["What we collect", "Contact details you submit through our intake form (name, company, email, WhatsApp), any brand assets you upload, and standard analytics about how you use the site."],
+        ["How we use it", "To respond to your enquiry, produce and deliver contracted work, send invoices, and improve our service. We do not sell your data."],
+        ["Storage & security", "Data is stored in Supabase (Postgres + Storage). Uploaded assets are held in a private bucket and served only through short-lived signed URLs. Access is restricted by row-level security."],
+        ["Your rights", "You may request access to, correction of, or deletion of your personal data at any time by contacting us."],
+        ["Contact", "For any privacy request, email the address on our Contact page."]
+      ]
+    },
+    "terms": {
+      "title": "Terms of Service",
+      "body": [
+        ["Scope", "These terms govern content services provided by Sana Studio, including static imagery, carousels, recurring AI characters, and dedicated AI influencers."],
+        ["Deliverables & revisions", "Each order specifies a deliverable scope and a contractual revision limit, visible in your dashboard. Additional revisions beyond the limit may incur fees."],
+        ["Approvals", "Production begins only after you approve the concept. Approved concepts define the scope of the work."],
+        ["Ownership & licensing", "On full payment you receive a license to use the delivered assets for the agreed purpose. AI personas remain the property of Sana Studio unless otherwise agreed in writing."],
+        ["AI content", "All content is AI-generated and disclosed as such per our AI Content & Disclosure policy and applicable platform rules."],
+        ["Liability", "Services are provided on a commercial-reasonable-efforts basis; our liability is limited to the fees paid for the affected order."]
+      ]
+    },
+    "disclosure": {
+      "title": "AI Content & Disclosure",
+      "intro": "Transparency about synthetic media is core to how we operate. This page explains what we make with AI and how we label it.",
+      "body": [
+        ["Everything we produce is AI-generated", "Our imagery, characters, influencers, and ambassadors are created with generative AI. They do not depict real events and, unless a signed likeness license exists, do not depict real people."],
+        ["How we label it", "We follow each platform's synthetic-media policy and applicable regulation. Dedicated AI influencer profiles carry a clear 'AI-generated' disclosure, and we advise clients on captions, tags, and platform 'AI-generated' toggles."],
+        ["Likeness & rights", "AI personas are original. We never recreate a real person's likeness without a signed license. Internally, any persona with a missing or expired license is blocked from being assigned to work."],
+        ["Prohibited uses", "We do not produce content that impersonates real individuals without consent, spreads misinformation, or targets protected categories. Permitted and forbidden brand categories are enforced per persona."],
+        ["Your responsibilities", "Clients are responsible for adding platform-required disclosures when publishing, in line with local advertising standards. We provide guidance on request."]
+      ]
+    }
   }
 }
